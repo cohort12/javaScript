@@ -1,11 +1,11 @@
 let you =" are the reason";
 //A variable "you" is assigned a value "are the reason" which is a string.
 var we = " the next generation of programmer";
-//Variable "we" is assigned  a value "the next generation of programmer".
+//Variable "we" is assigned  a value "the next generation of programmer". The group of word in the double quotes is called a string. 
 const us = ' we are upcoming software problem solvers';
-//A constant variable is declared "us" and assigned value 'we are upcoming software problem solvers'.
+//A constant variable is declared "us" and assigned value 'we are upcoming software problem solvers'. When a variable is declared as const, it means it is a constant. It's value cannot be changed. 
 let num1 = 5;
-//Value "5" which is a number is assigned to a declared variable 'num1'.
+//Value "5" which is a number is assigned to a declared variable 'num1'. The variable here is (let). 5 is the assigned value. num1 is the declaration.
 let num2 = 10;
 //Value "10" is assigned to a declared variable 'num2'.
 let num3 = num2 += num1;
@@ -15,9 +15,9 @@ let ans = num1 % num2;
 console.log(ans);
 //Displaying the current value of variable declared ans which is 15.
 console.log(num3 *= 2);
-//The value of the declared variable "num3" is multiplied by 2 ,so the value to be displayed will be 30.
+//The value of the declared variable "num3" is multiplied by 2 ,so the value to be displayed will be 30. (15*2 which gives us 30)
 var num4;
-//The value of the declared variable "num4" is undefined.
+//The value of the declared variable "num4" is undefined. The statement is incomplete. It does not tell the computer what exactly to do with num4. 
 console.log(num4);
 //The display is "undefined" since the variable num4 lacks a value.
 console.log(2num6);
@@ -25,7 +25,7 @@ console.log(2num6);
 var ans = 'this is not right';
 //A variable declared "ans" is assigned value 'this is not right'.
 var let ='do you know what you are doing?';
-//Its not advisable to declare a variable with a key-word (var,let,const,class etc), so it returns an error.
+//Its not advisable to declare a variable with a key-word (var,let,const,class etc), so it returns an error. var and let are all declaration statements. They cannot follow after each other.
 const dad;
 //A constant variable declared "dad" lacks a value , so its undefined.
 const myNum = num1>num2? num3:us;
@@ -46,7 +46,6 @@ if(100>=200){
 	console.log('you are now a junior developer');
 }
 //Assign value 20 to num2 and display 'you are now a junior developer' if its true that 100 is greater than or equal to 200 or else nothing will be displayed.
-
 
 
 
