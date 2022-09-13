@@ -21,7 +21,7 @@ var num4;
 console.log(num4);
 //The display is "undefined" since the variable num4 lacks a value.
 console.log(2num6);
-//Since the variable name begins with a number, it returns as an error because variable names should neither begin with a number nor capital letter unless when using camelCase or underscore.
+//An identifier or keyword cannot immediately follow a numeric literal. Error will be displayed as a result
 var ans = 'this is not right';
 //A variable declared "ans" is assigned value 'this is not right'.
 var let ='do you know what you are doing?';
