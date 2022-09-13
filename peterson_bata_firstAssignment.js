@@ -45,7 +45,8 @@ if(100>=200){
 	const num2 =20;
 	console.log('you are now a junior developer');
 }
-//Assign value 20 to num2 and display 'you are now a junior developer' if its true that 100 is greater than or equal to 200 or else nothing will be displayed.
+//If it's true that 100 is greater or equal to 200, then assigned a value of 20 to a variable num2. If that condition is true, print the message 'you are now a junior developer' otherwise nothing will be printed. 
+
 
 
 
