@@ -15,7 +15,7 @@ let ans = num1 % num2;
 console.log(ans);
 //This prints ans
 console.log(num3 *= 2);
-//This prints the result of multiplying num3 by 2
+//This prints the result of multiplying num3 by 2.
 var num4;
 //Declaring a a variable 'num4' using the keyword 'var' and leaving the variable empty
 console.log(num4);
