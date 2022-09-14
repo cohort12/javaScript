@@ -18,7 +18,8 @@ let num2 = 10;
 
 let num3 = num2 += num1;
 // declares a variable named num3 and
-// initiates it with a calculation | num2 is added to num1 | the result is assigned to num3
+// initiates it with a calculation
+//  num2 is added to num1 and the result is assigned to num3
 // num3 = 15
 
 let ans = num1 % num2;
