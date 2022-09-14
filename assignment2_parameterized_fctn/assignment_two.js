@@ -17,7 +17,7 @@ function compoundInterest(compounding_period){
 }
 
 function totalEarnings(){
-    var totals = compoundInterest(compounding_period)
+    var totals = compoundInterest(compounding_period) + simpleInterest(principal ,rate, duration )
     console.log("You're total earnings will be  is UGX %d",totals)
 }
 totalEarnings();
