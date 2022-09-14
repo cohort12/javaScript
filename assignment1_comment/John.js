@@ -15,7 +15,7 @@ let ans = num1 % num2;
 console.log(ans);
 //Displaying the current value of variable declared ans which is 15.
 console.log(num3 *= 2);
-//The value of the declared variable "num3" is multiplied by 2 ,so the value to be displayed will be 30.
+//The value of the declared variable "num3" is multiplied by 2 ,so the value to be displayed will be 30..
 var num4;
 //The value of the declared variable "num4" is undefined.
 console.log(num4);
