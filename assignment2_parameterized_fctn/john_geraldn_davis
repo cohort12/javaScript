@@ -1,4 +1,4 @@
-//create 3 parameterized functions that are calling one another..
+//create 3 parameterized functions that are calling one another...
 function netPay() {
   var gross = 2000000;
   var tax = 2000000 * 0.2;
