@@ -1,3 +1,6 @@
+// Albert Ashaba Aheebwa
+// Peterson Batatwenda
+
 function netPay(gross, tax, nssf) {
 	var netPay_ = gross - gross * tax - gross * nssf;
 	return netPay_;
