@@ -1,0 +1,22 @@
+//create 3 parameterized functions that are calling one another...
+function netPay() {
+  var gross = 2000000;
+  var tax = 2000000 * 0.2;
+  var salary = gross - tax;
+  return salary;
+}
+// console.log(netPay())
+
+function donation() {
+  var donations = 100000;
+  var realSalary = netPay() - donations;
+  return realSalary;
+}
+// console.log(donation())
+
+function aboutMe() {
+  var about_me = 700000;
+  var expenditure = donation() - about_me;
+  return expenditure;
+}
+console.log(aboutMe());

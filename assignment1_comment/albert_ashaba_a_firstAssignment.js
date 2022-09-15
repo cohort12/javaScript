@@ -15,7 +15,7 @@ let ans = num1 % num2;
 console.log(ans);
 //print in the console the value in the variable ans which is 5.
 console.log((num3 *= 2));
-//multiply the value in the variable num3 by 2 and print in console the answer. 30.
+//multiply the value in the variable num3 by 2 and print in console the answer. 30....
 var num4;
 //declare a variable with the name num4 that is not initialized.
 console.log(num4);

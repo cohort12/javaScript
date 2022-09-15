@@ -1,0 +1,48 @@
+let you =" are the reason";
+//we are declaring a variable you to a block statement "You are the reason"
+var we = " the next generation of programmer";
+//we are declaring a variable we to "we are the next generation of programmer" in javascript
+const us = ' we are upcoming software problem solvers';
+//it means we are declaring a constant variable that cant be changed through re asignment.
+let num1 = 5;
+//means  we assigning num1 to 5
+let num2 = 10;
+// assigning number2 to 10
+let num3 = num2 += num1;
+//assign the value of num2 and num1 to variable num3
+let ans = num1 % num2;
+//declare a variable with the name ans and assign it the value of the remainder of dividing the value of the variable num1 by the value of the variable num2
+console.log(ans);
+//means print ans into the console or web terminal which is 5
+console.log(num3 *= 2);
+//print the result of variable after multiplying 2 and assigning it to num3 
+var num4;
+//variable number 4 declared but not initialised
+console.log(num4);
+//print value of num4 however its undefined
+console.log(2num6);
+//print the value of num6, however its an error since the variable begun with a number which is wrong
+var ans = 'this is not right';
+//store ans 'this is not right'but  var ans was already declared
+var let ='do you know what you are doing?';
+//declare a variable with the name of a JavaScript key word
+const dad;
+//Means a constant variable dad however it was not initialized
+const myNum = num1>num2? num3:us;
+//
+console.log(--num3);
+//decrease the variable num3 then print its value
+console.log(num3);
+//prints the value in the variable num3
+console.log(num3++);
+//prints the value in the variable num3 then increments or increases it by 1
+console.log(num2 != num3);
+//print true or false depending on whether the value in the variable num2 is not equal to that in num3
+console.log(num3 !=num2 && num2==num2);
+print true or false if the value in num3 is not equal to that in num2 and the value in nume2 is equal to the value in num2
+
+if(100>=200){
+	const num2 =20;
+	console.log('you are now a junior developer');
+}
+// if it is true that 100 is greater or equal to 200, assign the number value 20 to the variable num2 and print the text string 'you are now a junior developer'
