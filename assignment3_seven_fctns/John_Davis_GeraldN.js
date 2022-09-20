@@ -68,9 +68,9 @@ function Sneaker(name, color, size, label, price){
      this.movieYear = year;
      this.movieTime = time;
  }
- let movie1 = new Movie('Venom', 'Scifi', '24', 2019, 'one hour');
- let movie2 = new Movie('Prey', 'Horror', '30', 2022, 'two hours');
- let movie3 = new Movie('Cop shop', 'Thriller', '12', 2021, 'two hours');
+ let movie1 = new Movie('Venom', 'Scifi', 24, 2019, 'one hour');
+ let movie2 = new Movie('Prey', 'Horror', 30, 2022, 'two hours');
+ let movie3 = new Movie('Cop shop', 'Thriller', 12, 2021, 'two hours');
  console.log(movie1.movieActors);
  console.log(movie2);
  console.log(movie3);
@@ -95,9 +95,9 @@ function Sneaker(name, color, size, label, price){
      this.phoneYear = year;
      this.phonePrice = price;
  }
- let phone1 = new Phone('Samsung A10', 'Android', 11, 2020, '300000');
- let phone2 = new Phone('Redmi', 'Android', '9', 2017, '250000');
- let phone3 = new Phone('Samsung s22', 'Android', 13, 2021, '3200000');
+ let phone1 = new Phone('Samsung A10', 'Android', 11, 2020, 300000);
+ let phone2 = new Phone('Redmi', 'Android', 9, 2017, 250000);
+ let phone3 = new Phone('Samsung s22', 'Android', 13, 2021, 3200000);
  console.log(phone3);
  console.log(phone2);
  console.log(phone1);
