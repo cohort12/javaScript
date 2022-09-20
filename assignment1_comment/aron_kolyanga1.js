@@ -1,5 +1,5 @@
 let you =" are the reason";
-//A variable "you" is assigned a value "are the reason" which is a string.
+// We have signed "you" to a string "are the reason" which is a string.
 var we = " the next generation of programmer";
 //Variable "we" is assigned  a value "the next generation of programmer".
 const us = ' we are upcoming software problem solvers';
@@ -23,7 +23,7 @@ console.log(num4);
 console.log(2num6);
 //Since the variable name begins with a number, it returns as an error because variable names should neither begin with a number nor capital letter unless when using camelCase or underscore.
 var ans = 'this is not right';
-//A variable declared "ans" is assigned value 'this is not right'.
+// the variable ans is already given a value on line 13 hence meaning this will give an error message when run //
 var let ='do you know what you are doing?';
 //Its not advisable to declare a variable with a key-word (var,let,const,class etc), so it returns an error.
 const dad;
