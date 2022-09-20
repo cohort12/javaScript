@@ -73,4 +73,4 @@ const person = {
 
 console.log(person.fullName());
 
-// End of the seven fuctions.
+// End of the seven fuctions..
