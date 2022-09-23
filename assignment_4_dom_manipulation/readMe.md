@@ -1,6 +1,6 @@
 ## Add other different types of sharks using Javascript
 
-    <ul id="list">
+    <ul>
 				<li>Hammerhead Shark</li>
 				<li>Tiger shark</li>
 				<li>Great White Shark</li>
