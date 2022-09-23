@@ -1,5 +1,4 @@
 const ul = document.getElementById("list");
-const li = document.createElement("li");
 
 listOfSharks = ["Another Shark", "Another Second Shark", "Maybe a Whale", "That is a Dolphin"];
 
