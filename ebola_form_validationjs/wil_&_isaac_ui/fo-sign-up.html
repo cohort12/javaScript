@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapid Case Management Form</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<link rel="stylesheet" href="ufarmain.css">
+<script src="https://kit.fontawesome.com/1bfd8a1bfc.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" style="color: white; line-height: 30%; margin-top: 0.5%;"><br>
+        <div><p>Rapid Case Management Form. Ebola Virus Disease</p>
+        <p>Based on WHO VHF/SARI_Case_Record_Form 2016.</p></div>
+      </div>
+    </div>
+  </div>  
+    </header>
+
+    <main>
+      
+        <div class="container">
+            <div class="row regfrmborder">
+                <div class="col-md-12">                    
+                  <form name="fosignup" id="agric-officer-singin" onsubmit=" checksurName(); checklastName(); checkDate(); checkEtuNum(); checkEpiId(); checkAdmissionDate(); checkOccupation(); checkFacility(); checkHeartRate(); checkPressureSys(); checkPressureDys(); checkRespRate(); checkOxySat(); checkWeight(); checkHeight(); checkTemp(); checkArmp()" action="">
+                  <br>
+                  </div>
+<!--Leftmost column start-->                      
+                <div class="col-md-4">
+                  <h6><b>CASE IDENTIFICATION/ DEMOGRAPHIC DETAILS</b></h3>
+                    <label for="fo-fname">First Name: </label><br>
+                    <input 
+                    type="text" 
+                    class="agricofficerinput" 
+                    id="for-fname" 
+                    name="fosurname" 
+                    onblur="checksurName()"><br><br>
+
+                    <label for="folname">Last Name:</label><br>
+                    <input 
+                    type="text" 
+                    class="agricofficerinput" 
+                    id="folname" 
+                    name="folname" 
+                    onblur="checklastName()"><br><br>
+
+                    <label for="etunumber">ETU Number:</label><br>
+                    <input 
+                    type="text" 
+                    class="agricofficerinput" 
+                    id="etunumber" 
+                    name="etunumber" 
+                    onblur="checkEtuNum()"><br><br>
+
+                    <label for="epiid"><b>EPI ID:</b></label><br>
+                    <input 
+                    type="text" 
+                    class="agricofficerinput"
+                    id="epiid" 
+                    name="epiid" 
+                    onblur="checkEpiId()"><br><br>
+
+                    <lable for="sex">Sex:</lable><br>
+                    <input 
+                    type="radio" 
+                    id="male" 
+                    name="sex" 
+                    value="male">
+                    <label for="gender-male">Male</label> &nbsp; &nbsp;
+  
+                    <input 
+                    type="radio" 
+                    id="female" 
+                    name="sex" 
+                    value="female">
+                    <label for="gender-female">Female</label><br><br>
+
+                    <label for="dobirth">Date of Birth:</label><br>
+                    <input 
+                    type="date" 
+                    class="agricofficerinput" 
+                    id="dobirth" 
+                    name="dob" 
+                    onblur="checkDate()"><br><br>
+
+                  <label for="dobunavailable">If date of birth unavailable:</label><br>
+                  <label for="age">Age:</label>
+                  <input 
+                  type="number"
+                  class="childinput"
+                  id="age"
+                  name="age"
+                  onblur=""
+                  >
+                  <input 
+                  type="radio"
+                  id="dobunavailable"
+                  name="dobunavailable"
+                  onblur=""><label for="dobunavailable">&nbsp;Years</label>
+
+                  <input 
+                  type="radio"
+                  id="dobunavailable"
+                  name="dobunavailable"
+                  onblur=""><label for="dobunavailable">&nbsp;Months</label>
+                  <br><br>
+
+                </div>
+<!--Middle column start-->                      
+                <div class="col-md-4">
+                  
+                  <label for="doadmiss">Date of Admission:</label><br>
+                  <input 
+                  type="date" 
+                  class="agricofficerinput" 
+                  id="doadmiss"
+                  name="doadmiss" 
+                  onblur="checkAdmissionDate()"><br><br>
+
+                  <label for="occupation">Patient Occupation:</label><br>
+                  <input 
+                    type="checkbox" 
+                    id="healthworker" 
+                    name="healthworker" 
+                    value="healthworker"
+                    onblur="">
+                  <label for="healthworker">Healthcare worker:</label>
+                  <br>
+                  
+                  <input 
+                  type="checkbox" 
+                  id="nonhealth" 
+                  name="nonhealth" 
+                  value="nonhealth"
+                  onblur="">
+                <label for="nonhealth">Non-Healthcare worker:</label>
+                <br>
+
+                  <label for ="occupation">Please specify:</label>
+                  <br>
+                  <input 
+                    type="text" 
+                    class="agricofficerinput"
+                    id="occupation" 
+                    name="occupation" 
+                    value=""
+                    onblur="checkOccupation()"><br><br>
+
+                    <label for="transferee">Patient transferred from another facility:</label><br>
+                    
+                    <input 
+                    type="radio"
+                    id="transferred"
+                    name="transferstatus"
+                    value="yes"
+                    onblur=""><label for="transferred">&nbsp;Yes&nbsp;&nbsp;</label>
+  
+                    <input 
+                    type="radio"
+                    id="transferred"
+                    name="transferstatus"
+                    value="no"
+                    onblur=""><label for="transferred">&nbsp;No&nbsp;&nbsp;</label>
+
+                    <input 
+                    type="radio"
+                    id="transferred"
+                    name="transferstatus"
+                    value="unknown"
+                    onblur=""><label for="transferred">&nbsp;Unknown</label>
+                    <br>
+
+                    <label for="refacility">Name of facility:</label>
+                    <input 
+                    type="text"
+                    class="childinput"
+                    id="refacility"
+                    name="refacility"
+                    onblur="checkFacility()"
+                    ><br><br>
+
+                  <h6><b>VITALS AT TRIAGE</b></h3>
+
+                  <label for="heartrate">Heartrate (bpm):</label>
+                  <input 
+                  type="number"
+                  class="childinput"
+                  id="heartrate"
+                  name="heartrate"
+                  onblur="checkHeartRate()"
+                  ><br><br>
+
+                  <label for="bloodpressure">BP(mmHg):</label><br>
+                  <input 
+                  type="number"
+                  class="smallchildinput"
+                  id="bpsystolic"
+                  name="bpsystolic"
+                  value=""
+                  onblur="checkPressureSys()"
+                  >
+                  <label for="bpsystolic">&nbsp;systolic&nbsp;&nbsp;</label>
+
+                  <input 
+                  type="number"
+                  class="smallchildinput"
+                  id="bpdiastolic"
+                  name="bpdiastolic"
+                  value=""
+                  onblur="checkPressureDys()"
+                  >
+                  <label for="bpsystolic">&nbsp;diastolic</label>
+                  <br><br>
+
+                  <label for="capilrefil">Capillary refill >3 sec:</label><br>
+                    
+                    <input 
+                    type="radio"
+                    id="capilrefil"
+                    name="capilrefil"
+                    value="yes"
+                    onblur="">
+                    <label for="capilrefil">&nbsp;Yes&nbsp;&nbsp;</label>
+  
+                    <input 
+                    type="radio"
+                    id="capilrefil"
+                    name="capilrefil"
+                    value="no"
+                    onblur="">
+                    <label for="capilrefil">&nbsp;No&nbsp;&nbsp;</label>
+                  
+
+                </div>
+                <!--Rightmost column start-->                      
+                <div class="col-md-4">
+
+                  <label for="resprate">Respiratory Rate (/min):</label>
+                  <input 
+                  type="number"
+                  class="agricofficerinput"
+                  id="resprate"
+                  name="resprate"
+                  onblur="checkRespRate()"
+                  ><br><br>
+
+                  <label for="oxysat">O<sub>2</sub> saturation room air(%):</label>
+                  <input 
+                  type="number"
+                  class="agricofficerinput"
+                  id="oxysat"
+                  name="oxysat"
+                  onblur="checkOxySat()"
+                  ><br><br>
+
+                  <label for="weight">Weight (kg):</label><br>
+                  <input 
+                  type="number" 
+                  class="agricofficerinput"
+                  id="weight"
+                  name="weight"
+                  onblur="checkWeight()"
+                  ><br><br>
+
+                  <label for="height">Self-reported height (cm):</label><br>
+                  <input 
+                  type="number" 
+                  class="agricofficerinput"
+                  id="height"
+                  name="height"
+                  onblur="checkHeight()"
+                  ><br><br>
+
+                  <label for="temp">Temperature (<sup>o</sup>C):</label><br>
+                  <input 
+                  type="number" 
+                  class="agricofficerinput"
+                  id="temp"
+                  name="temp"
+                  onblur="checkTemp()"
+                  ><br><br>
+
+                  <label for="mentalstatus">Mental Status:</label><br>
+                    
+                    <input 
+                    type="radio"
+                    id="mentalstatus"
+                    name="mentalstatus"
+                    value="A"
+                    onblur=""><label for="mentalstatus">&nbsp;A&nbsp;&nbsp;</label>
+  
+                    <input 
+                    type="radio"
+                    id="mentalstatus"
+                    name="mentalstatus"
+                    value="V"
+                    onblur=""><label for="mentalstatus">&nbsp;V&nbsp;&nbsp;</label>
+
+                    <input 
+                    type="radio"
+                    id="mentalstatus"
+                    name="mentalstatus"
+                    value="P"
+                    onblur=""><label for="mentalstatus">&nbsp;P&nbsp;&nbsp;</label>
+
+                    <input 
+                    type="radio"
+                    id="mentalstatus"
+                    name="mentalstatus"
+                    value="U"
+                    onblur=""><label for="mentalstatus">&nbsp;U&nbsp;&nbsp;</label>
+                    <br><br>
+
+                  <label for="miduparm">Mid-upper arm circumference(MUAC) (mm):</label><br>
+                  <input 
+                  type="number" 
+                  class="agricofficerinput"
+                  id="miduparm"
+                  name="miduparm"
+                  onblur="checkArmp()"
+                  ><br><br>
+
+
+                </div>
+
+                <div class="container">
+                  <div class="row">
+                  <hr>
+                    <div class="col-md-8"><input type="submit" id="frm-btn-ao" name="submit" value="Submit Case  📝"></div>
+                    <div class="col-md-4"><input type="reset" id="frm-btn-ao" name="reset" value="Reset"></div>
+                    <p>&copy;2022 &copy; Mukulembeze & Isaac CSS Wetpaint Designs</p>
+                    </div>
+                </div>
+                        
+              </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="date.js"></script>
+    <script src="fo-signup.js"></script>
+ </html>
