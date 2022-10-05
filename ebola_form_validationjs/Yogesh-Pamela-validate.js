@@ -38,7 +38,7 @@ const checkInputs = () => {
 
 // phone field
 	let regex = /^(\()?\d{3}(\))?(-|\s)?\d{3}(-|\s)\d{4}$/;
-    let phone = txtinput.value.trim();
+    	let phone = txtinput.value.trim();
 	if (phone.value.match(regex)) {
 		email.focus();
 		phone.style.border = "4px solid green";
